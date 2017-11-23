@@ -13,6 +13,13 @@ git commit -m "type your msg here"
 
 # some of the important commands 
 
+
+#merge the existing branch in current branch
+git merge --no-ff [BranchName]
+
+#Revert the existing branch in current branch
+git revert --no-edit [BranchName]
+
 # checked unmerged branches from master
 git branch --no-merged master
 
