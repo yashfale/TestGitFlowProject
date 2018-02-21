@@ -18,13 +18,17 @@ git commit -m "type your msg here"
 git merge --no-ff [BranchName]
 
 #Revert the existing branch in current branch
-git revert --no-edit [BranchName]
+git revert --no-edit [commitid]
 
 # checked unmerged branches from master
 git branch --no-merged master
 
+#add tag name and push it to the remote
+git tag [entertagNmae]
+git push --tag 
 
-
+#Change the git branch name 
+git branch [new branch name] { Note : at the time of current branch }  
 
 
 
