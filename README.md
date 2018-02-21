@@ -23,11 +23,11 @@ git revert --no-edit [commitid]
 # checked unmerged branches from master
 git branch --no-merged master
 
-#add tag name and push it to the remote
+# add tag name and push it to the remote
 git tag [entertagNmae]
 git push --tag 
 
-#Change the git branch name 
+# Change the git branch name 
 git branch [new branch name] { Note : at the time of current branch }  
 
 
