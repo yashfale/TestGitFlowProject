@@ -30,6 +30,14 @@ git push --tag
 # Change the git branch name 
 git branch [new branch name] { Note : at the time of current branch }  
 
+# if Parent git repo changed by some one then do the below things and push the existing repo branch 
+git remote remove origin
+git remote add origin <new_url>
+git remote update
+git push 
+
+
+
 
 
 
