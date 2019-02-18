@@ -37,7 +37,7 @@ git remote update ,
 git push 
 
 # delte tag from local and remote
-git push --delete origin tagname
+git push --delete origin tagname ,
 git tag --delete tagname
 
 
