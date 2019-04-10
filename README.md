@@ -40,7 +40,7 @@ git push
 git push --delete origin tagname ,
 git tag --delete tagname
 
-#Multiple commit into single commit while merging the bracnh to another branch 
+# Multiple commit into single commit while merging the bracnh to another branch 
 git merge --squash [BranchName] [AnotherBranchName]
 
 
